@@ -1,0 +1,19 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/css/header.css": "/css/header.css",
+    "/css/menu.css": "/css/menu.css",
+    "/css/slide.css": "/css/slide.css",
+    "/css/product.css": "/css/product.css",
+    "/css/article.css": "/css/article.css",
+    "/css/provider.css": "/css/provider.css",
+    "/css/footer.css": "/css/footer.css",
+    "/css/shop.css": "/css/shop.css",
+    "/css/single.css": "/css/single.css",
+    "/css/cart.css": "/css/cart.css",
+    "/css/checkout.css": "/css/checkout.css",
+    "/css/news.css": "/css/news.css",
+    "/css/new_single.css": "/css/new_single.css",
+    "/css/contact.css": "/css/contact.css",
+    "/js/index.js": "/js/index.js"
+}

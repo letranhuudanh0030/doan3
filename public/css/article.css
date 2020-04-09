@@ -1,0 +1,114 @@
+#hd-article {
+  /* the slides */
+  /* the parent */
+}
+
+#hd-article .nb-categories {
+  box-shadow: 10px 10px 5px 0px rgba(183, 183, 183, 0.75);
+}
+
+#hd-article .nb-categories .nb-category {
+  padding: 1% 1.5%;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-right: 1px solid #ccc;
+  color: black;
+}
+
+#hd-article .nb-categories .nb-category:hover {
+  background: #0f5fb1;
+  color: #ffffff;
+}
+
+#hd-article .nb-categories .nb-category-title {
+  padding: 1% 1.5%;
+  display: inline-block;
+  text-decoration: none;
+  background: #0f5fb1;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  border-right: 1px solid #ccc;
+}
+
+#hd-article .nb-categories .nb-category-title span {
+  font-weight: bold;
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 50%;
+  margin-right: 15px;
+  padding: 5px 10px;
+  background: white;
+  color: #0f5fb1;
+  box-shadow: 0px 0px 10px 0px #fffcff;
+}
+
+@media (max-width: 767.98px) {
+  #hd-article .nb-categories .nb-category-title span {
+    padding: 0px 4px;
+  }
+}
+
+#hd-article .hd-article-item {
+  border: 1px solid #ccc;
+}
+
+#hd-article .hd-article-item .hd-img-box {
+  overflow: hidden;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+}
+
+#hd-article .hd-article-item .hd-img-box img {
+  transition: all ease 0.7s;
+}
+
+#hd-article .hd-article-item .hd-img-box:hover img {
+  transform: scale(1.2);
+}
+
+#hd-article .hd-article-item .hd-title {
+  padding: 5px;
+}
+
+#hd-article .hd-article-item .hd-title a {
+  text-decoration: none;
+  color: #000;
+  outline: none;
+}
+
+#hd-article .hd-article-item .hd-title a h3 {
+  font-size: 20px;
+  font-weight: normal;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+}
+
+#hd-article .hd-article-item .hd-title .hd-intro p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  text-align: justify;
+}
+
+#hd-article .hd-article-item:hover {
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+#hd-article .slick-slide {
+  margin: 0 15px;
+  padding: 10px;
+}
+
+#hd-article .slick-list {
+  margin: 0 -15px;
+}
+

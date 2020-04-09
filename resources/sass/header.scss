@@ -1,0 +1,94 @@
+
+#hd-header-top{
+    background: #0f5fb1;
+
+    
+    .hd-intro-header, .hd-phone-header, .hd-address-header{
+        font-size: 14px;
+        color: #FFF;
+        padding: 8px;
+    }
+}
+
+#hd-header-content{
+    padding: 10px 0px;
+    .hd-search{
+        .hd-category, .hd-keyword, .hd-cta-search{
+            border-radius: unset;
+            &:active{
+                outline: none;
+            }
+            &:focus{
+                box-shadow: unset;
+            }
+        }
+        // .hd-category{
+        //     width: 20%;
+        // }
+        .hd-keyword{
+            width: 80%;
+        }
+    }
+
+    .hd-cart{
+        &:hover{
+            .nb-list-cart{
+                display: block;
+            }
+        }
+
+        .num-cart{
+            background: #FFF;
+            color: black;
+            padding: 0px 6px;
+            border-radius: 50%;
+            margin-left: 8px;
+            &:hover{
+                .nb-list-cart{
+                    display: block;
+                }
+            }
+        }
+     
+    
+        .nb-list-cart{
+            display: none;
+            position: absolute;
+            z-index: 2;
+            background: white;
+            color:black;
+            list-style: none;
+            padding: 5%;
+            width: 300px;
+            right: 0;
+            top: 100%;
+            -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+            box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+            .nb-item-cart{
+                font-size: 14px;
+            }
+            .nb-cta-cart{
+                background: #cccccc;
+                padding: 5%;
+                a{
+                    color:white;
+                    font-weight: bold;
+                    text-decoration: none;
+    
+                }
+                &:hover{
+    
+                    a{
+                        color: #ffbd61;
+                    }
+    
+                    background: #0f5fb1;
+                }
+            }
+    
+        }
+    }
+
+    
+}
