@@ -14,14 +14,15 @@
         <div class="row ">
             <div class="col-11 mx-auto">
                 <div class="row">
+                    
                     <div class="col-4 hd-intro-header text-left d-none d-lg-block">
-                        {{ $info->meta_title }}
+                        {{-- {{ $info->meta_title }} --}}bind data
                     </div>
                     <div class="col-12 col-md-4 hd-phone-header text-center mx-auto">
-                        Hotline: {{ $info->phone }}
+                        {{-- Hotline: {{ $info->phone }} --}}bind data
                     </div>
                     <div class="col-4 hd-address-header text-right d-none d-lg-block">
-                        Địa chỉ: {{ $info->address }}
+                        {{-- Địa chỉ: {{ $info->address }} --}}bind data
                     </div>
                 </div>
             </div>
@@ -30,7 +31,6 @@
 </div>
 <div id="hd-header-content">
     <div class="container-fluid">
-
         <div class="row ">
             <div class="col-11 mx-auto">
                 <div class="row">
