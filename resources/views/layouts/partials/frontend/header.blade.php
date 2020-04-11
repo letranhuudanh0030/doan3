@@ -36,7 +36,7 @@
                 <div class="row">
                     <div class="col-12 col-lg-4 text-center">
                         <a href="{{ route('home') }}">
-                            {{-- <img src="{{ asset($info->logo) }}" alt="" class="img-fluid"> --}} bind data
+                            <img src="{{ asset($info->logo) }}" alt="" class="img-fluid">
                         </a>
                     </div>
                     <div class="col-lg-6 text-center align-self-center hd-search">
