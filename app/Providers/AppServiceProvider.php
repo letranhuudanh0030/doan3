@@ -5,6 +5,7 @@ namespace App\Providers;
 use App\Info;
 use App\ProductCategory;
 use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\URL;
 // use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
 
@@ -35,6 +36,10 @@ class AppServiceProvider extends ServiceProvider
 
         // info
         $info = Info::first();
+
+        if (env('APP_ENV') !== 'local') {
+            URL::forceScheme('https');
+        }
 
         // View::share('categories', $categories);
         view()->share([
