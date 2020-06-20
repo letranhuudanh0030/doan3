@@ -10,6 +10,12 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
+
+
+
 Route::get('/', 'FrontendController@index')->name('home');
 
 Route::get('/{slug}-cp{id?}.html', 'FrontendController@shop')->where('slug', '[a-zA-Z0-9-_]+')->where('id', '[0-9]+')->name('shop');

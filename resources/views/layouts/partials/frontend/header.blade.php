@@ -16,13 +16,13 @@
                 <div class="row">
                     
                     <div class="col-4 hd-intro-header text-left d-none d-lg-block">
-                        {{-- {{ $info->meta_title }} --}}bind data
+                        {{ $info->meta_title }}
                     </div>
                     <div class="col-12 col-md-4 hd-phone-header text-center mx-auto">
-                        {{-- Hotline: {{ $info->phone }} --}}bind data
+                        Hotline: {{ $info->phone }}
                     </div>
                     <div class="col-4 hd-address-header text-right d-none d-lg-block">
-                        {{-- Địa chỉ: {{ $info->address }} --}}bind data
+                        Địa chỉ: {{ $info->address }}
                     </div>
                 </div>
             </div>
@@ -36,7 +36,7 @@
                 <div class="row">
                     <div class="col-12 col-lg-4 text-center">
                         <a href="{{ route('home') }}">
-                            {{-- <img src="{{ asset($info->logo) }}" alt="" class="img-fluid"> --}} bind data
+                            <img src="{{ asset($info->logo) }}" alt="" class="img-fluid">
                         </a>
                     </div>
                     <div class="col-lg-6 text-center align-self-center hd-search">
